@@ -1,0 +1,8 @@
+[
+  {
+    "title": "General Prompt Document",
+    "description": "The General Prompt Document is a simple, structured template for everyday AI tasks. It helps you clearly define your goal, inputs, and requirements so an LLM can respond more accurately and consistently.",
+    "version": "1.0",
+    "template_dir": "general-prompt-document-v1.0.md"
+  }
+]
