@@ -1,8 +1,26 @@
 [
   {
-    "title": "General Prompt Document",
-    "description": "The General Prompt Document is a simple, structured template for everyday AI tasks. It helps you clearly define your goal, inputs, and requirements so an LLM can respond more accurately and consistently.",
-    "version": "1.0",
-    "template_dir": "general-prompt-document-v1.0.md"
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "title": "General Prompt Template",
+    "description": "The General Prompt Template is a simple, structured template for everyday AI tasks. It helps you clearly define your goal, inputs, and requirements so an LLM can respond more accurately and consistently.",
+    "version": 1,
+    "template_dir": "general-prompt-document-v1.md",
+    "example": "general-prompt-document-example-v1.md"
+  },
+  {
+    "id": "f9e8d7c6-b5a4-3210-9876-543210fedcba",
+    "title": "Instruction Template",
+    "description": "A reusable template for prompts where the user wants the AI to perform a sequence of ordered, structured steps, each with rules. This sub-prompt pattern can be used as-is or inserted into a main prompt when needed.",
+    "version": 1,
+    "template_dir": "instruction-template-v1.md",
+    "example": "instruction-template-example-v1.md"
+  },
+  {
+    "id": "12345678-90ab-cdef-1234-567890abcdef",
+    "title": "System Prompt Template",
+    "description": "The System Prompt Template sets the role, behavior, and output style of an AI model so it responds consistently, follows rules, and communicates in a reliable, controlled manner across multiple tasks.",
+    "version": 1,
+    "template_dir": "system-prompt-template-v1",
+    "example": "system-prompt-template-example-v1.md"
   }
 ]
