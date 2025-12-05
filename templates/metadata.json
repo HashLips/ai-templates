@@ -4,8 +4,8 @@
     "title": "General Prompt Template",
     "description": "The General Prompt Template is a simple, structured template for everyday AI tasks. It helps you clearly define your goal, inputs, and requirements so an LLM can respond more accurately and consistently.",
     "version": 1,
-    "template_dir": "general-prompt-document-v1.md",
-    "example": "general-prompt-document-example-v1.md"
+    "template_dir": "general-prompt-template-v1.md",
+    "example": "general-prompt-template-example-v1.md"
   },
   {
     "id": "f9e8d7c6-b5a4-3210-9876-543210fedcba",
@@ -20,7 +20,7 @@
     "title": "System Prompt Template",
     "description": "The System Prompt Template sets the role, behavior, and output style of an AI model so it responds consistently, follows rules, and communicates in a reliable, controlled manner across multiple tasks.",
     "version": 1,
-    "template_dir": "system-prompt-template-v1",
+    "template_dir": "system-prompt-template-v1.md",
     "example": "system-prompt-template-example-v1.md"
   }
 ]
