@@ -11,16 +11,14 @@ The website should introduce the brand, show a few products, and encourage users
   - About section
   - Product section
 - Tone: friendly, warm, approachable.
-- Output format: clear headings, short descriptions, and optional code snippets.
 
 ### Rules & Constraints
 
 - Must use Next.js.
 - Use semantic HTML and responsive design.
-- Keep copy original (no lorem ipsum).
 - Keep the layout simple and easy to understand.
 - No exaggerated product claims.
-- Do not introduce third-party UI libraries unless justified.
+- Use Tailwind css
 
 ### Key Inputs (Raw Data & Context)
 

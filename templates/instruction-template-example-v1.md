@@ -1,10 +1,9 @@
 ### Step 1: Identify Header Component in Existing Code
 
-Find and extract the current header component from the codebase so we can modify it.
+Find the current header component from the codebase so we can modify it.
 
 Instructions:
 
-- Locate the existing header component in the codebase.
 - Identify where the JSX for the header is defined.
 - If there are multiple candidates, choose the one used on most pages.
 
@@ -23,12 +22,13 @@ Modify the existing header component by adding a static logo element positioned 
 Instructions:
 
 - Insert a logo element (`<img>` or `<span>`) on the right side of the header.
-- Position it using layout utilities (CSS/Tailwind).
-- Ensure the logo is always present (not conditional).
+- Position it using (CSS/Tailwind).
+- Add 20px padding to the logo
 
 Rules & Constraints:
 
 - Preserve the existing structure as much as possible.
+- Ensure the logo is always present (not conditional).
 
 Output Requirements:
 
