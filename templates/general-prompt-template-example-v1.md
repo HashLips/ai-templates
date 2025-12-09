@@ -1,30 +1,45 @@
 ### Objective / Goal
 
-Create a basic marketing website for a company that sells coffee.
-The website should introduce the brand, show a few products, and encourage users to place an online order.
+The goal is to create a basic, minimalistic marketing website for a company that sells coffee, focusing on a health-oriented and organic message. The site should communicate that the brand is unique, wholesome, and nature-inspired, with a warm, handcrafted, and inviting tone. The website should introduce the brand, present several products on the homepage, include an About page that highlights the company story, offer a Contact Us page, and provide clear paths for users to connect via social media.
 
 ### Output Requirements
 
-- Provide a simple website structure using Next.js.
-- Include example text for:
-  - Hero section
-  - About section
-  - Product section
-- Tone: friendly, warm, approachable.
+- Build a simple website using Next.js as a static site.
+- Include a homepage with:
+  - A hero section
+  - A small selection of products
+  - Testimonials or customer referrals
+- Include a dedicated About page
+- Include a Contact Us page
+- Display social media icons for X and Instagram in the footer
+- Use a friendly, warm, healthy, organic, and approachable tone throughout
+- Provide consistent layout and navigation with a header on all pages
 
 ### Rules & Constraints
 
-- Must use Next.js.
-- Use semantic HTML and responsive design.
-- Keep the layout simple and easy to understand.
-- No exaggerated product claims.
-- Use Tailwind css
+- Must use Next.js
+- Must be a static site
+- Use semantic HTML
+- Use responsive design for desktop and mobile
+- Must use Tailwind CSS for styling
+- Ensure consistent spacing (padding, margins, etc.) across pages
+- Use placeholder images and text for now
+- Keep the overall layout simple and clean
+- Use modern components
+- Make reusable components
 
 ### Key Inputs (Raw Data & Context)
 
-- Company name: Amazing Brewed Awakening Coffee
-- Products: whole bean coffee, ground coffee
-- Brand vibe: warm, handcrafted, inviting
+- Company name: Amazing Brewed Coffee
+- Products:
+  - Whole Bean Coffee
+  - Super Bean Coffee
+  - Ground Coffee
+- Brand vibe: Warm, handcrafted, inviting
+- Main colors:
+  - Green: #4CAF50
+  - Blue: #3B82F6
+  - Brown: #8B4513
 
 ### Final Directive
 

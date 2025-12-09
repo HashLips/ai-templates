@@ -1,39 +1,48 @@
-### Step 1: Identify Header Component in Existing Code
+### Step 1: Fix Hero Section Background Image
 
-Find the current header component from the codebase so we can modify it.
-
-Instructions:
-
-- Identify where the JSX for the header is defined.
-- If there are multiple candidates, choose the one used on most pages.
-
-Rules & Constraints:
-
-- Only inspect and reference existing code (do not rewrite yet).
-
-Output Requirements:
-
-- Provide the file path (if known) and the current JSX of the header.
-
-### Step 1: Add a Static Logo to the Header on the Right Side
-
-Modify the existing header component by adding a static logo element positioned on the right.
+Amend the hero section image so that it covers the entire hero section area.
 
 Instructions:
 
-- Insert a logo element (`<img>` or `<span>`) on the right side of the header.
-- Position it using (CSS/Tailwind).
-- Add 20px padding to the logo
+- Identify the hero section on the homepage in the HTML.
+- Convert the existing image to a background image applied to the hero container
+- Ensure the background image uses Tailwind classes to cover the full section and maintain responsiveness.
+- Center the background image within the hero container.
 
 Rules & Constraints:
 
-- Preserve the existing structure as much as possible.
-- Ensure the logo is always present (not conditional).
+- The background image must not overlap or obscure the content within the hero section.
+- The background image must be center aligned.
+- Ensure that responsiveness is preserved on mobile, tablet, and desktop.
 
 Output Requirements:
 
-- Provide an updated code block of the modified header.
-- Highlight or comment on the new logo element.
+- A hero section with:
+  - A full-width, full-height background image
+  - Background image set to cover and center
+
+### Step 2: Adjust Hero Section Text
+
+Amend the hero section text content to reposition and style the title and subtitle for improved layout and aesthetic.
+
+Instructions:
+
+- Identify the hero section and locate the title and subtitle text elements.
+- Wrap the title and subtitle in a single <div> container to group them together.
+- Align the text container to the right side of the hero section.
+- Apply consistent spacing by adding right padding of 40px to the wrapper div.
+- Style the title text using the brand’s green color (#4CAF50).
+- Style the subtitle text using the brand’s blue color (#3B82F6).
+
+Rules & Constraints:
+
+- The wrapper div should apply spacing, rather than applying spacing individually to each element.
+- Maintain responsive layout and ensure text readability on smaller screens.
+
+Output Requirements:
+
+- A single wrapper <div> containing both title and subtitle.
+- Wrapper div positioned on the right side of the hero section.
 
 ### Final Directive
 
